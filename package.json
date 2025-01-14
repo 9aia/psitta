@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "pnpm --recursive --parallel --stream run dev",
+    "build": "pnpm --filter @psitta/core run build && pnpm --filter @psitta/react run build && pnpm --filter @psitta/vue run build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "docs:dev": "vitepress dev docs",
@@ -11,6 +12,9 @@
     "docs:preview": "vitepress preview docs",
     "docs:generate": "tsc --lib 'es2021, dom' --skipLibCheck --outDir ./packages/core/dist/docs ./packages/core/src/**/*.ts && node ./scripts/generate-reference",
     "docs:deploy": "gh-pages -d ./docs/.vitepress/dist"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.4",
@@ -22,8 +26,5 @@
     "rimraf": "^5.0.5",
     "vitepress": "^1.0.1",
     "yargs": "^17.7.2"
-  },
-  "dependencies": {
-    "gh-pages": "^6.1.1"
   }
 }

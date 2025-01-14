@@ -61,8 +61,8 @@ Escapes and unescapes parts of the message as needed.
 
 - **See Also**
 
-  - [resolveToString](https://neogaialab.github.io/psitta/core/reference/resolve.html#resolveToString)
-  - [resolveToSegments](https://neogaialab.github.io/psitta/core/reference/resolve.html#resolveToSegments)
+  - [resolveToString](https://9aia.github.io/psitta/core/reference/resolve.html#resolveToString)
+  - [resolveToSegments](https://9aia.github.io/psitta/core/reference/resolve.html#resolveToSegments)
 
 ## resolveToSegments <Badge type="info" text="function" /> {#resolveToSegments}
 

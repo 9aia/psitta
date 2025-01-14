@@ -110,10 +110,10 @@ if (!SKIP_GITHUB) {
   const { releaseUrl } = github({
     tagName,
     releaseName,
-    releaseNotes: `Please refer to [CHANGELOG.md](https://github.com/neogaialab/psitta/blob/main/packages/${dirName}/CHANGELOG.md) for details.`,
+    releaseNotes: `Please refer to [CHANGELOG.md](https://github.com/9aia/psitta/blob/main/packages/${dirName}/CHANGELOG.md) for details.`,
   })
 
-  const anchor = a({ href: releaseUrl }, 'https://github.com/neogaialab/psitta/releases/new')
+  const anchor = a({ href: releaseUrl }, 'https://github.com/9aia/psitta/releases/new')
   console.log('➕ Release on GitHub:', anchor, '\n')
 }
 

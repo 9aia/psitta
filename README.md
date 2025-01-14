@@ -37,13 +37,13 @@ This project encompasses the development and management of the following compone
 
 ## Installing
 
-To install Psitta, please follow the [Installation Guide](https://neogaialab.github.io/psitta/core/guide/installation.html) in the documentation.
+To install Psitta, please follow the [Installation Guide](https://9aia.github.io/psitta/core/guide/installation.html) in the documentation.
 
 ## Documentation
 
-- [Reference](https://neogaialab.github.io/psitta/core/reference/config.html)
-- [Homepage](https://neogaialab.github.io/psitta/)
+- [Reference](https://9aia.github.io/psitta/core/reference/config.html)
+- [Homepage](https://9aia.github.io/psitta/)
 
 ## Contributing
 
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/neogaialab/psitta/issues) or [submit a pull request](https://github.com/neogaialab/psitta/pulls) on the Psitta GitHub repository.
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/9aia/psitta/issues) or [submit a pull request](https://github.com/9aia/psitta/pulls) on the Psitta GitHub repository.

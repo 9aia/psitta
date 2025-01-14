@@ -11,7 +11,7 @@ hero:
       link: /core/introduction
     - theme: alt
       text: View on GitHub
-      link: https://github.com/neogaialab/psitta
+      link: https://github.com/9aia/psitta
 
 features:
   - title: Type-safe

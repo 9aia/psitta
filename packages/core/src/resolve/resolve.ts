@@ -51,8 +51,8 @@ import { endEscaping, startEscaping } from './utils'
  * // Output: "Hello, Batou!"
  * ```
  * 
- * @see {@link https://neogaialab.github.io/psitta/core/reference/resolve.html#resolveToString|resolveToString}
- * @see {@link https://neogaialab.github.io/psitta/core/reference/resolve.html#resolveToSegments|resolveToSegments}
+ * @see {@link https://9aia.github.io/psitta/core/reference/resolve.html#resolveToString|resolveToString}
+ * @see {@link https://9aia.github.io/psitta/core/reference/resolve.html#resolveToSegments|resolveToSegments}
  */
 function resolve<I, V extends Value>(
   message: Message,

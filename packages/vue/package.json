@@ -5,14 +5,14 @@
   "private": false,
   "description": "The next-gen type-safe internationalization library powered by GenAI",
   "license": "ISC",
-  "homepage": "https://github.com/neogaialab/psitta#readme",
+  "homepage": "https://github.com/9aia/psitta#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neogaialab/psitta.git",
+    "url": "git+https://github.com/9aia/psitta.git",
     "directory": "packages/vue"
   },
   "bugs": {
-    "url": "https://github.com/neogaialab/psitta/issues"
+    "url": "https://github.com/9aia/psitta/issues"
   },
   "publishConfig": {
     "access": "public"

@@ -20,8 +20,8 @@ export default defineConfig({
       {
         text: 'Changelog',
         items: [
-          { text: 'Core', link: 'https://github.com/neogaialab/psitta/blob/main/packages/core/CHANGELOG.md' },
-          { text: 'Vue', link: 'https://github.com/neogaialab/psitta/blob/main/packages/vue/CHANGELOG.md' },
+          { text: 'Core', link: 'https://github.com/9aia/psitta/blob/main/packages/core/CHANGELOG.md' },
+          { text: 'Vue', link: 'https://github.com/9aia/psitta/blob/main/packages/vue/CHANGELOG.md' },
         ]
       },
     ],
@@ -73,7 +73,7 @@ export default defineConfig({
     },
     
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/neogaialab/psitta' }
+      { icon: 'github', link: 'https://github.com/9aia/psitta' }
     ],
 
     footer: {
