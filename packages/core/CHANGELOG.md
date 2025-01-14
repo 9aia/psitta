@@ -4,6 +4,12 @@ name: Changelog
 description: All notable changes to this project will be documented in this file.
 ---
 
+## [Unreleased]
+
+### Changed
+
+- Replaced `toLocaleString` and `toLocaleDateString` with Intl formatters
+
 ## [0.3.0] - 2024-05-19
 
 ## Added
