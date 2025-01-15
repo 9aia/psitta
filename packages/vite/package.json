@@ -1,0 +1,56 @@
+{
+  "name": "@psitta/vite",
+  "type": "module",
+  "version": "0.0.0",
+  "private": false,
+  "description": "Vite plugin for Psitta",
+  "license": "ISC",
+  "homepage": "https://github.com/9aia/psitta#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9aia/psitta.git",
+    "directory": "packages/vite"
+  },
+  "bugs": {
+    "url": "https://github.com/9aia/psitta/issues"
+  },
+  "keywords": [
+    "vite-plugin"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/src/main.d.ts",
+        "default": "./dist/psitta.es.js"
+      }
+    }
+  },
+  "main": "./dist/psitta.es.js",
+  "types": "./dist/src/main.d.ts",
+  "files": [
+    "CHANGELOG.md",
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc & vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "node ../../scripts/release"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.4",
+    "@types/node": "^20.11.20",
+    "eslint": "^8.57.0",
+    "release-it": "^17.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4",
+    "vite-plugin-dts": "^3.7.3"
+  }
+}

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "pnpm --recursive --parallel --stream run dev",
-    "build": "pnpm --filter @psitta/core run build && pnpm --filter @psitta/react run build && pnpm --filter @psitta/vue run build",
+    "build": "pnpm --filter @psitta/core run build && pnpm --filter @psitta/react run build && pnpm --filter @psitta/vue run build && pnpm --filter @psitta/vite run build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "docs:dev": "vitepress dev docs",

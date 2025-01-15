@@ -8,6 +8,8 @@ description: A prioritized list of tasks, features, and ideas for future develop
 
 ## Features
 
+- Auto-translate on change #vite
+
 ## Bugs
 
 ## Enhancements
